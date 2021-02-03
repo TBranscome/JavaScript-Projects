@@ -8,3 +8,8 @@ function myFunction() {//defing and naming the function for the p element
     sentence += " a lot from this book!";//using the += operator to concatenate
     document.getElementById("Concatenate").innerHTML = sentence;//giving a value of the result into HTML element Concatenate id
 }
+function functionGreen() {
+    var x = document.getElementById("Green_Text");
+    x.style.color = "green";
+    x.style.backgroundColor = "yellow";
+}
